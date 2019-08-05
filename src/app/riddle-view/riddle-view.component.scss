@@ -1,0 +1,78 @@
+.content-pane {
+    width: 100%;
+    margin-top: 90px;
+    text-align: center;
+    vertical-align: middle;
+    place-items: center;
+    & .view {
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%;
+      border-top: 3px solid #673ab7;
+    }
+  }
+  .view-lines-wrapper {
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #673ab7, rgba(0, 0, 0, 0)) 1 100%;
+  }
+  .view-line {
+    font-family: 'BlackChancery';
+    font-size: 72pt;
+  }
+  .answer-form {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    .answer-form-field {
+      min-width: 620px;
+      max-width: 1020px;
+      font-size: 18pt;
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  button {
+    min-width: 200px;
+    height: 50px;
+    font-size: 18pt;
+  }
+  .divider {
+    position: relative;
+    margin-top: 20px;
+    height: 2px;
+  }
+  .div-transparent:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 2px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      #673ab7,
+      transparent
+    );
+  }
+  .div-arrow-down:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: calc(50% - 7px);
+    width: 14px;
+    height: 14px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-bottom: 2px solid #673ab7;
+    border-right: 2px solid #673ab7;
+  }
+  

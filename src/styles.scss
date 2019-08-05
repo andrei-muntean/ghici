@@ -1,3 +1,9 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+/* font */
+@font-face {
+  font-family: 'BlackChancery';
+  src: url('./assets/BLKCHCRY.TTF') format('truetype');
+}
 /* You can add global styles to this file, and also import other style files */
 html, body {
   margin: 0;

@@ -1,0 +1,23 @@
+<div class="content-pane">
+  <div class="view" *ngIf="riddle">
+    <div class="view-lines-wrapper">
+      <div class="view-line" *ngFor="let line of riddle.lines">
+        {{ line }}
+      </div>
+    </div>
+    <div class="divider div-transparent div-arrow-down"></div>
+  </div>
+  <div class="answer">
+    <form class="answer-form">
+      <mat-form-field class="answer-form-field">
+        <input matInput placeholder="Raspuns" />
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="footer buttons">
+    <button mat-flat-button color="accent" [disabled]="order === 0">
+      Inapoi
+    </button>
+    <button mat-flat-button color="primary">Trimite Raspuns</button>
+  </div>
+</div>

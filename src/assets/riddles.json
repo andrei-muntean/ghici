@@ -1,0 +1,20 @@
+[
+    {
+        "order": 1,
+        "lines": ["Rața, gâsca și găina", "Cu invidie mă privesc,", "Că la gât eu port mărgele", "Și cu ele mă fălesc"],
+        "answer": ["curcan", "curcanul", "curcani", "curcanii"],
+        "image": "./assets/curcan.jpg"
+    },    
+    {
+        "order": 2,
+        "lines": ["Ca un ceas deșteptător", "Pe la 5 eu te trezesc.", "Sunt frumos, cuceritor", "Și găinile-ndrăgesc"],
+        "answer": ["cocos", "cocoș", "cocoșul", "cocosul"],
+        "image": "./assets/cocos.jpg"
+    },    
+    {
+        "order": 3,
+        "lines": ["Operații eu îți fac", "Numai dacă ești copac.", "De boală te lecuiesc", "Și pădurea o-ngrijesc"],
+        "answer": ["ciocanitoare", "ciocănitoare", "ciocănitoarea", "ciocanitoarea"],
+        "image": "./assets/ciocanitoare.jpg"
+    }
+]

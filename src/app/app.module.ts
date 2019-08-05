@@ -17,6 +17,13 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HomeModule } from './home/home.module';
 
 import { AppComponent } from './app.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+import { RiddleViewComponent } from './riddle-view/riddle-view.component';
+import { HomeViewComponent } from './home-view/home-view.component';
+
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -24,7 +31,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, RiddleViewComponent, HomeViewComponent],
   imports: [
     BrowserModule,
     FormsModule,
@@ -39,7 +46,11 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
