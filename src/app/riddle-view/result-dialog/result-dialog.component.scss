@@ -1,0 +1,53 @@
+.content-pane {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  .answer-wrapp {
+    text-align: center;
+    border-top: 3px solid #673ab7;
+    h1 {
+      font-family: 'BlackChancery';
+      font-size: 24pt;
+      margin-top: 20px;
+    }
+    .img-wrapper {
+      margin-bottom: 30px;
+      padding: 0 30px;
+      border-width: 3px;
+      border-style: solid;
+      border-image: linear-gradient(to bottom, #673ab7, rgba(0, 0, 0, 0)) 1 100%;  
+      img {
+        width: 150px;
+        height: 130px;
+      }
+    }
+    .buttons {
+      margin-top: 50px;
+      button {
+        min-width: 200px;
+        height: 50px;
+        font-size: 18pt;
+      }
+    }
+  }
+}
+.divider {
+    position: relative;
+    margin-top: 20px;
+    height: 2px;
+  }
+  .div-transparent:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 2px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      #673ab7,
+      transparent
+    );
+  }

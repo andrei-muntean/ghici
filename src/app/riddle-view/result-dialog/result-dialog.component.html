@@ -1,0 +1,22 @@
+<div class="content-pane">
+  <div class="answer-wrapp" *ngIf="data.correct">
+    <div class="img-wrapper">
+        <h1>Felicitări ai răspuns corect!</h1>
+      <img src="../../../assets/correct.png" alt="Icon" />
+    </div>
+    <div class="divider div-transparent div-arrow-down"></div>
+    <div class="buttons">
+      <button mat-flat-button color="primary" [mat-dialog-close]="data.correct" cdkFocusInitial>Urmatorul</button>
+    </div>
+  </div>
+  <div class="answer-wrapp" *ngIf="!data.correct">
+    <div class="img-wrapper">
+        <h1>Ne pare rău ai răspun greșit</h1>
+      <img src="../../../assets/incorrect.png" alt="Icon" />
+    </div>
+    <div class="divider div-transparent div-arrow-down"></div>
+    <div class="buttons">
+      <button mat-flat-button color="warn" (click)="close()" cdkFocusInitial>Reîncearcă</button>
+    </div>
+  </div>
+</div>

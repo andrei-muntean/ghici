@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PageNotFoundComponent } from './shared/components';
 import { HomeViewComponent } from './home-view/home-view.component';
 import { RiddleViewComponent } from './riddle-view/riddle-view.component';
 
@@ -17,10 +16,6 @@ const routes: Routes = [
   {
       path: 'riddleview',
       component: RiddleViewComponent
-  },
-  {
-    path: '**',
-    component: PageNotFoundComponent
   }
 ];
 

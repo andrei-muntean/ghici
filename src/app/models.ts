@@ -4,3 +4,6 @@ export interface IRiddle {
     answer: string[];
     image: string;
 }
+export interface IDialogData {
+    correct: boolean;
+}
