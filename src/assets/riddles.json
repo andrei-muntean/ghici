@@ -16,5 +16,47 @@
         "lines": ["Operații eu îți fac", "Numai dacă ești copac.", "De boală te lecuiesc", "Și pădurea o-ngrijesc"],
         "answer": ["ciocanitoare", "ciocănitoare", "ciocănitoarea", "ciocanitoarea"],
         "image": "./assets/ciocanitoare.jpg"
+    },    
+    {
+        "order": 4,
+        "lines": ["Îmi string zilnic numele", "S-audă vecinele", "Oul în grija lor îl las,", "Când vreau să am un urmaș"],
+        "answer": ["cuc", "cucul"],
+        "image": "./assets/cuc.jpg"
+    },    
+    {
+        "order": 5,
+        "lines": ["Marea îmi dăruiește", "Zilnic câte-un peștișor.", "Pe deasupra ei când zbor,", "Seamăn cu un mic planor."],
+        "answer": ["pescarus", "pescăruș", "pescarusul", "pescărușul"],
+        "image": "./assets/pescarus.jpg"
+    },    
+    {
+        "order": 6,
+        "lines": ["Umblă țanțoș prin ogradă", "Și trezește lumea-ntreagă.", "Spune copile, de știi,", "Cine poate fi?"],
+        "answer": ["cocos", "cocoș", "cocoșul", "cocosul"],
+        "image": "./assets/cocosul.jpg"
+    },    
+    {
+        "order": 7,
+        "lines": ["Frumoasa pasăre colorată", "Repetă ce-i spun, îndată.", "Poți s-o ții, în colivie,", "Cin' să fie?"],
+        "answer": ["papagal", "papagalul"],
+        "image": "./assets/papagal.jpg"
+    },    
+    {
+        "order": 8,
+        "lines": ["Eu la mare locuiesc", "Peștii îmi plac, la ei poftesc.", "În apă, când privesc,", "Pofta vreau să-mi potolesc."],
+        "answer": ["pescarus", "pescăruș", "pescarusul", "pescărușul"],
+        "image": "./assets/pescarusul.jpg"
+    },    
+    {
+        "order": 9,
+        "lines": ["Mama îl strigă: beeeee...", "Iar cel mic răspunde: meeeee...", "Cin' să fie?", "Zi-mi tu, mie!"],
+        "answer": ["miel", "mielul"],
+        "image": "./assets/miel.jpg"
+    },    
+    {
+        "order": 10,
+        "lines": ["Un căluț, vărgat,", "Ieri, la Zoo am vizitat.", "Știu că de-ar putea,", "În Africa ar pleca."],
+        "answer": ["zebra", "zebră"],
+        "image": "./assets/zebra.jpg"
     }
 ]
