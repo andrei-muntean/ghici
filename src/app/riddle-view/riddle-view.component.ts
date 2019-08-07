@@ -3,6 +3,7 @@ import riddles from '../../assets/riddles.json';
 import { IRiddle } from '../models.js';
 import { MatDialog } from '@angular/material/dialog';
 import { ResultDialogComponent } from './result-dialog/result-dialog.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-riddle-view',
@@ -17,7 +18,7 @@ export class RiddleViewComponent implements OnInit {
   riddle: IRiddle;
   order = 0;
 
-  constructor(private _dialog: MatDialog) {
+  constructor(private _dialog: MatDialog, private _router: Router) {
     this.riddle = this._allRiddles[0];
   }
 
@@ -35,12 +36,17 @@ export class RiddleViewComponent implements OnInit {
     const correctAnswer = this.riddle.answer.find(answer => answer === inputValue) !== undefined;
     const dialogRef = this._dialog.open(ResultDialogComponent, {
       disableClose: true,
-      data: {correct: correctAnswer}
+      data: {correct: correctAnswer, correctImage: this.riddle.image}
     });
     dialogRef.afterClosed().subscribe(result => {
       if (result === true) {
         this.answer.nativeElement.value = '';
-        this.riddle = this._allRiddles[++this.order];
+        const nextOrder = ++this.order;
+        if (nextOrder >= this._allRiddles.length) {
+          this._router.navigate(['/finalview']);
+        } else {
+          this.riddle = this._allRiddles[nextOrder];
+        }
       }
     });
   }

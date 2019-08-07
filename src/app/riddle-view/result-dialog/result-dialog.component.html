@@ -1,22 +1,50 @@
 <div class="content-pane">
   <div class="answer-wrapp" *ngIf="data.correct">
     <div class="img-wrapper">
-        <h1>Felicitări ai răspuns corect!</h1>
-      <img src="../../../assets/correct.png" alt="Icon" />
+      <h1>Felicitări ai răspuns corect!</h1>
+      <div class="image-to-print" id="print-section">
+        <img
+          class="correct-img"
+          src="{{ data.correctImage }}"
+          alt="Correct Image"
+        />
+      </div>
     </div>
     <div class="divider div-transparent div-arrow-down"></div>
     <div class="buttons">
-      <button mat-flat-button color="primary" [mat-dialog-close]="data.correct" cdkFocusInitial>Urmatorul</button>
+      <button
+        mat-flat-button
+        color="accent"
+        printSectionId="print-section"
+        ngxPrint
+        [printStyle]="{ img: { 'max-width': '595px' } }"
+      >
+        Printează
+      </button>
+      <button
+        mat-flat-button
+        color="primary"
+        [mat-dialog-close]="data.correct"
+        cdkFocusInitial
+      >
+        Următorul
+      </button>
     </div>
   </div>
   <div class="answer-wrapp" *ngIf="!data.correct">
     <div class="img-wrapper">
-        <h1>Ne pare rău ai răspun greșit</h1>
-      <img src="../../../assets/incorrect.png" alt="Icon" />
+      <h1>Ne pare rău ai răspun greșit</h1>
+      <img
+        class="incorrect-img"
+        src="../../../assets/incorrect.png"
+        alt="Incorrect Image"
+      />
     </div>
     <div class="divider div-transparent div-arrow-down"></div>
     <div class="buttons">
-      <button mat-flat-button color="warn" (click)="close()" cdkFocusInitial>Reîncearcă</button>
+      <button mat-flat-button color="warn" (click)="close()" cdkFocusInitial>
+        Reîncearcă
+      </button>
     </div>
   </div>
 </div>

@@ -8,10 +8,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { CoreModule } from './core/core.module';
 
 import { AppRoutingModule } from './app-routing.module';
-
-// NG Translate
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import {NgxPrintModule} from 'ngx-print';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,18 +19,15 @@ import { RiddleViewComponent } from './riddle-view/riddle-view.component';
 import { HomeViewComponent } from './home-view/home-view.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ResultDialogComponent } from './riddle-view/result-dialog/result-dialog.component';
-
-// AoT requires an exported function for factories
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-}
+import { FinalViewComponent } from './final-view/final-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RiddleViewComponent,
     HomeViewComponent,
-    ResultDialogComponent
+    ResultDialogComponent,
+    FinalViewComponent
   ],
   imports: [
     BrowserModule,
@@ -41,14 +35,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule,
     CoreModule,
     AppRoutingModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    }),
     BrowserAnimationsModule,
+    NgxPrintModule,
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,

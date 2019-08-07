@@ -1,0 +1,16 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'BlackChancery';
+  h1 {
+    font-size: 72pt;
+  }
+  button {
+    font-size: 18pt;
+    min-width: 200px;
+    height: 50px;
+  }
+}

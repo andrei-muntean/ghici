@@ -6,4 +6,5 @@ export interface IRiddle {
 }
 export interface IDialogData {
     correct: boolean;
+    correctImage: string;
 }
