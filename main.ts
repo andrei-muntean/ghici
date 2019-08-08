@@ -20,6 +20,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    icon: __dirname + 'ghici.ico'
   });
   win.setMenu(null);
 
