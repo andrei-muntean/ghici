@@ -19,6 +19,10 @@ export class RiddleViewComponent implements OnInit {
   order = 0;
 
   constructor(private _dialog: MatDialog, private _router: Router) {
+    const savedOrder = localStorage.getItem('order');
+    if (savedOrder) {
+      this.order = +savedOrder;
+    }
     this.riddle = this._allRiddles[this.order];
   }
 
@@ -42,6 +46,7 @@ export class RiddleViewComponent implements OnInit {
       if (result === true) {
         this.answer.nativeElement.value = '';
         const nextOrder = ++this.order;
+        localStorage.setItem('order', nextOrder.toString());
         if (nextOrder >= this._allRiddles.length) {
           this._router.navigate(['/finalview']);
         } else {
