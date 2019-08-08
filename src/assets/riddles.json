@@ -43,7 +43,7 @@
     },    
     {
         "order": 8,
-        "lines": ["Eu la mare locuiesc", "Peștii îmi plac, la ei poftesc.", "În apă, când privesc,", "Pofta vreau să-mi potolesc."],
+        "lines": ["Eu la mare locuiesc", "Peștii îmi plac, la ei poftesc.", "În apă când privesc,", "Pofta vreau să-mi potolesc."],
         "answer": ["pescarus", "pescăruș", "pescarusul", "pescărușul"],
         "image": "./assets/pescarusul.jpg"
     },    
@@ -58,5 +58,173 @@
         "lines": ["Un căluț, vărgat,", "Ieri, la Zoo am vizitat.", "Știu că de-ar putea,", "În Africa ar pleca."],
         "answer": ["zebra", "zebră"],
         "image": "./assets/zebra.jpg"
+    },    
+    {
+        "order": 11,
+        "lines": ["Merg la trap sau în galop,", "Nu-mi place să stau pe loc.", "Dacă tu le ştii pe toate,", "Spune: cine sunt, nepoate?"],
+        "answer": ["cal", "calul"],
+        "image": "./assets/cal.jpg"
+    },    
+    {
+        "order": 12,
+        "lines": ["Sunt un rege ne-nfricat,", "Prin junglă eu hoinăresc,.", "Spune-mi, tu!", "Cum mă numesc?"],
+        "answer": ["leu", "leul"],
+        "image": "./assets/leu.jpg"
+    },    
+    {
+        "order": 13,
+        "lines": ["Unii zic că-s fioros", "Tot flămând şi nemilos.", "În pădure locuiesc", "Şi la iezi mereu poftesc."],
+        "answer": ["lup", "lupul"],
+        "image": "./assets/lup.jpg"
+    },    
+    {
+        "order": 14,
+        "lines": ["Când în prinţ nu mă prefac,", "Toată ziua stau pe lac", "Şi strig tare: - Oac, oac, oac!"],
+        "answer": ["broasca", "broască"],
+        "image": "./assets/broasca.jpg"
+    },    
+    {
+        "order": 15,
+        "lines": ["Chiar de este urecheat", "De copii e adorat.", "Fricosul din poveste,", "Oare cine este?"],
+        "answer": ["iepure", "iepurele", "iepuraș", "iepuraşul", "iepuras", "iepurasul"],
+        "image": "./assets/iepure.jpg"
+    },    
+    {
+        "order": 16,
+        "lines": ["Ghemotoc moale de lână,", "Doar pe Beee… l-a învăţat,", "Că-ntruna l-a repetat."],
+        "answer": ["oaie", "oaia"],
+        "image": "./assets/oaia.jpg"
+    },    
+    {
+        "order": 17,
+        "lines": ["Arămie şi frumoasă,", "Lumea o ştie de hoaţă.", "Oamenii o ponegresc", "Şi deloc nu o iubesc."],
+        "answer": ["vulpe", "vulpea"],
+        "image": "./assets/vulpe.jpg"
+    },    
+    {
+        "order": 18,
+        "lines": ["Patrupedul credincios", "Se bucură de-i dau un os.", "Tata, paznic l-a angajat,", "Iar el ne vorbeşte prin lătrat."],
+        "answer": ["caine", "cainele", "câine", "câinele"],
+        "image": "./assets/caine.jpg"
+    },    
+    {
+        "order": 19,
+        "lines": ["O felină, mai micuţă,", "Linguşitoare şi drăguţă,", "Pe masă ea s-a urcat", "Când mama n-a observat"],
+        "answer": ["pisica", "pisică"],
+        "image": "./assets/pisica.jpg"
+    },    
+    {
+        "order": 20,
+        "lines": ["Mica noastră zburătoare", "Culege nectar din floare.", "Însă, de nu-i faci pe plac,", "Pentru tine are-un ac."],
+        "answer": ["albina", "albină"],
+        "image": "./assets/albina.jpg"
+    },    
+    {
+        "order": 21,
+        "lines": ["Prin pădure umblu alene", "După fragi, nu după lemne.", "Şi strig tare că de foame", "Am să : morrrr! mor!…"],
+        "answer": ["urs", "ursul"],
+        "image": "./assets/urs.jpg"
+    },    
+    {
+        "order": 22,
+        "lines": ["După ploaie el apare", "Cu căsuţa în spinare.", "Îi e frig de stă la soare?", "Cine-i oare?"],
+        "answer": ["melc", "melcul"],
+        "image": "./assets/melc.jpg"
+    },    
+    {
+        "order": 23,
+        "lines": ["Are aripi, dar nu zboară.", "Hai ghiceşte, Anişoară!", "Doar în apă el trăieşte,", "Iar noi îl numim…"],
+        "answer": ["peste", "pestele", "peşte", "peştele"],
+        "image": "./assets/peste.jpg"
+    },    
+    {
+        "order": 24,
+        "lines": ["Are spini, nu-i trandafir.", "Umblă noaptea prin grădini.", "Ce să fie oare, ghici?", "Un ....."],
+        "answer": ["arici", "ariciul"],
+        "image": "./assets/arici.jpg"
+    },    
+    {
+        "order": 25,
+        "lines": ["Cine-i pasărea de fier,", "Care zboară sus pe cer?", "Vrea benzină, nu mâncare", "Cine-i oare?"],
+        "answer": ["avion", "avionul"],
+        "image": "./assets/avion.jpg"
+    },    
+    {
+        "order": 26,
+        "lines": ["Sus pe cer el străluceşte,", "Luminează şi-ncălzeşte.", "Seara merge la culcare,", "Cine-i oare?"],
+        "answer": ["soare", "soarele"],
+        "image": "./assets/soare.jpg"
+    },    
+    {
+        "order": 27,
+        "lines": ["Creaţia miraculoasă,", "Îţi spune de eşti frumoasă", "Te prezintă aşa cum eşti", " În ea, dacă te priveşti."],
+        "answer": ["oglinda", "oglindă"],
+        "image": "./assets/oglinda.jpg"
+    },    
+    {
+        "order": 28,
+        "lines": ["De-i rotundă, albă, mare", "Sau e mică, colorată,", "De-o loveşti ea sare-ndată"],
+        "answer": ["mingea", "minge"],
+        "image": "./assets/minge.jpg"
+    },    
+    {
+        "order": 29,
+        "lines": ["Stă tot timpul într-un picior,", "Iar pe micul ei căpşor", "Poartă pălărie nouă", "Şi de-i soare, şi de plouă"],
+        "answer": ["ciuperca", "ciupercă"],
+        "image": "./assets/ciuperca.jpg"
+    },    
+    {
+        "order": 30,
+        "lines": ["Doarme o vară întreagă", "Obosită, fără vlagă,", "Dar te poartă în spinare", "Când afară e ninsoare.", "Ghiceşti cine este, oare?"],
+        "answer": ["sanie", "sania"],
+        "image": "./assets/sania.jpg"
+    },    
+    {
+        "order": 31,
+        "lines": ["Am rochiţă roşioară", "Şi în câmp eu locuiesc.", "Mă vedeţi vara pe-afară,", "Cu grâul eu povestesc."],
+        "answer": ["mac", "macul"],
+        "image": "./assets/macul.jpg"
+    },    
+    {
+        "order": 32,
+        "lines": ["Coroana catifelată", "Mă face să fiu sfios,", "Dar tulpina înspinată", "Ţi-arată că-s şi ţâfnos."],
+        "answer": ["trandafir", "trandafirul"],
+        "image": "./assets/trandafir.jpg"
+    },    
+    {
+        "order": 33,
+        "lines": ["Cu scufia mea cea albă", "Şi miros suav,", "Primăvara o vestesc", "Când soseşte-n prag."],
+        "answer": ["ghiocel", "ghiocelul"],
+        "image": "./assets/ghiocel.jpg"
+    },    
+    {
+        "order": 34,
+        "lines": ["Pălărioara gălbioară", "După soare-o potrivesc.", "Celui ce mă recunoaşte", "Eu o floare-i dăruiesc."],
+        "answer": ["floarea-soarelui", "floarea soarelui"],
+        "image": "./assets/floarea-soarelui.jpg"
+    },    
+    {
+        "order": 35,
+        "lines": ["Sus pe creasta muntelui", "Mie-mi place să trăiesc,", "Sunt precum o stea micuţă", "Şi oamenii mă ocrotesc."],
+        "answer": ["floarea de colţ", "floare de colţ"],
+        "image": "./assets/floarea-de-colt.jpg"
+    },    
+    {
+        "order": 36,
+        "lines": ["Multe boabe adunate", "Pe-un ştiulete înşirate.", "Gălbioare, aurii,", "Ce să fie, dragi copii?"],
+        "answer": ["porumb", "porumbul"],
+        "image": "./assets/porumb.jpg"
+    },    
+    {
+        "order": 37,
+        "lines": ["Rumenit în obrăjori,", "Cu nas roşu, păr buclat,", "Gura-i mare ne zâmbeşte", "Şi mereu ne-nveseleşte."],
+        "answer": ["clovn", "clovnul"],
+        "image": "./assets/clovn.jpg"
+    },    
+    {
+        "order": 38,
+        "lines": ["Sunt pufos, parcă-s de vată", "Şi mă plimb prin lumea toată", "Iar când frig mie îmi este", "Vă dau şi vouă de veste.", "Vă trimit lacrimile mele", "Ca să vă spălaţi cu ele."],
+        "answer": ["nor", "norul"],
+        "image": "./assets/nor.jpg"
     }
 ]
