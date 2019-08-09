@@ -37,10 +37,10 @@ export class RiddleViewComponent implements OnInit {
     if (!inputValue) {
       return;
     }
-    const correctAnswer = this.riddle.answer.find(answer => answer === inputValue.toLowerCase()) !== undefined;
+    const correctAnswer: boolean = this.riddle.answer.find(answer => answer === inputValue.toLowerCase()) !== undefined;
     const dialogRef = this._dialog.open(ResultDialogComponent, {
       disableClose: true,
-      data: {correct: correctAnswer, correctImage: this.riddle.image}
+      data: {correct: correctAnswer, correctImage: this.riddle.image, correctAnswer: inputValue}
     });
     dialogRef.afterClosed().subscribe(result => {
       if (result === true) {
