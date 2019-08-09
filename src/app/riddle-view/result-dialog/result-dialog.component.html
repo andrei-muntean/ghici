@@ -1,7 +1,7 @@
 <div class="content-pane">
   <div class="answer-wrapp" *ngIf="data.correct">
     <div class="img-wrapper">
-      <h1>Felicitări ai răspuns corect!</h1>
+      <h1>Felicitări, ai răspuns corect!</h1>
       <div class="image-to-print" id="print-section">
         <img
           class="correct-img"
@@ -33,7 +33,7 @@
   </div>
   <div class="answer-wrapp" *ngIf="!data.correct">
     <div class="img-wrapper">
-      <h1>Ne pare rău ai răspun greșit</h1>
+      <h1>Îmi pare rău, răspunsul este greșit.</h1>
       <img
         class="incorrect-img"
         src="./assets/incorrect.jpg"

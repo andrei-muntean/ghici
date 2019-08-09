@@ -13,4 +13,15 @@
     min-width: 200px;
     height: 50px;
   }
+  .foot {
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    display: flex;
+    font-size: 10pt;
+    text-align: left;
+    .bold {
+      font-weight: 600;
+    }
+  }
 }

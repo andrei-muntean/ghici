@@ -46,10 +46,11 @@ export class RiddleViewComponent implements OnInit {
       if (result === true) {
         this.answer.nativeElement.value = '';
         const nextOrder = ++this.order;
-        localStorage.setItem('order', nextOrder.toString());
         if (nextOrder >= this._allRiddles.length) {
+          localStorage.removeItem('order');
           this._router.navigate(['/finalview']);
         } else {
+          localStorage.setItem('order', nextOrder.toString());
           this.riddle = this._allRiddles[nextOrder];
         }
       }
