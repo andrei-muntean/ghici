@@ -19,7 +19,7 @@
     },    
     {
         "order": 4,
-        "lines": ["Îmi string zilnic numele", "S-audă vecinele", "Oul în grija lor îl las,", "Când vreau să am un urmaș"],
+        "lines": ["Îmi strig zilnic numele", "S-audă vecinele", "Oul în grija lor îl las,", "Când vreau să am un urmaș"],
         "answer": ["cuc", "cucul"],
         "image": "./assets/cuc.jpg"
     },    
@@ -62,7 +62,7 @@
     {
         "order": 11,
         "lines": ["Merg la trap sau în galop,", "Nu-mi place să stau pe loc.", "Dacă tu le ştii pe toate,", "Spune: cine sunt, nepoate?"],
-        "answer": ["cal", "calul"],
+        "answer": ["cal", "calul", "căluț", "căluțul", "calut", "calutul"],
         "image": "./assets/cal.jpg"
     },    
     {
@@ -104,7 +104,7 @@
     {
         "order": 18,
         "lines": ["Patrupedul credincios", "Se bucură de-i dau un os.", "Tata, paznic l-a angajat,", "Iar el ne vorbeşte prin lătrat."],
-        "answer": ["caine", "cainele", "câine", "câinele"],
+        "answer": ["caine", "cainele", "câine", "câinele", "cățel", "cățelul", "cățeluș", "catelus", "catel", "catelul"],
         "image": "./assets/caine.jpg"
     },    
     {

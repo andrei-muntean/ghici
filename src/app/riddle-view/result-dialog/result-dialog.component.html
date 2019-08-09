@@ -36,13 +36,19 @@
       <h1>Ne pare rău ai răspun greșit</h1>
       <img
         class="incorrect-img"
-        src="./assets/incorrect.png"
+        src="./assets/incorrect.jpg"
         alt="Incorrect Image"
       />
     </div>
     <div class="divider div-transparent div-arrow-down"></div>
     <div class="buttons">
-      <button mat-flat-button color="warn" (click)="close()" cdkFocusInitial>
+      <button
+        mat-flat-button
+        color="warn"
+        (click)="close()"
+        (keyup)="close()"
+        cdkFocusInitial
+      >
         Reîncearcă
       </button>
     </div>

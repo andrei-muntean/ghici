@@ -18,6 +18,7 @@ function createWindow() {
     width: size.width,
     height: size.height,
     webPreferences: {
+      nativeWindowOpen: true, // add this
       nodeIntegration: true,
     },
     icon: __dirname + 'ghici.ico'
