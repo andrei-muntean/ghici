@@ -22,8 +22,8 @@ export class ResultDialogComponent {
   print(): void {
     const printContents = document.getElementById('print-section').innerHTML;
     const popupWin = window.open(
-      '_blank',
       '',
+      '_blank',
       'top=0,left=0,height=auto,width=550px'
     );
     popupWin.document.open();
