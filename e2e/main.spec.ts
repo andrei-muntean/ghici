@@ -3,7 +3,7 @@ import {SpectronClient} from 'spectron';
 
 import commonSetup from './common-setup';
 
-describe('ghici App', function () {
+describe('Ghici App', function () {
   commonSetup.apply(this);
 
   let browser: any;

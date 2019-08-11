@@ -1,25 +1,25 @@
 [
     {
         "order": 1,
-        "lines": ["Rața, gâsca și găina", "Cu invidie mă privesc,", "Că la gât eu port mărgele", "Și cu ele mă fălesc"],
+        "lines": ["Rața, gâsca și găina", "Cu invidie mă privesc,", "Că la gât eu port mărgele", "Și cu ele mă fălesc."],
         "answer": ["curcan", "curcanul", "curcani", "curcanii"],
         "image": "./assets/curcan.jpg"
     },    
     {
         "order": 2,
-        "lines": ["Ca un ceas deșteptător", "Pe la 5 eu te trezesc.", "Sunt frumos, cuceritor", "Și găinile-ndrăgesc"],
+        "lines": ["Ca un ceas deșteptător", "Pe la 5 eu te trezesc.", "Sunt frumos, cuceritor", "Și găinile-ndrăgesc."],
         "answer": ["cocos", "cocoș", "cocoșul", "cocosul"],
         "image": "./assets/cocos.jpg"
     },    
     {
         "order": 3,
-        "lines": ["Operații eu îți fac", "Numai dacă ești copac.", "De boală te lecuiesc", "Și pădurea o-ngrijesc"],
+        "lines": ["Operații eu îți fac", "Numai dacă ești copac.", "De boală te lecuiesc", "Și pădurea o-ngrijesc."],
         "answer": ["ciocanitoare", "ciocănitoare", "ciocănitoarea", "ciocanitoarea"],
         "image": "./assets/ciocanitoare.jpg"
     },    
     {
         "order": 4,
-        "lines": ["Îmi strig zilnic numele", "S-audă vecinele", "Oul în grija lor îl las,", "Când vreau să am un urmaș"],
+        "lines": ["Îmi strig zilnic numele", "S-audă vecinele", "Oul în grija lor îl las,", "Când vreau să am un urmaș."],
         "answer": ["cuc", "cucul"],
         "image": "./assets/cuc.jpg"
     },    
@@ -67,7 +67,7 @@
     },    
     {
         "order": 12,
-        "lines": ["Sunt un rege ne-nfricat,", "Prin junglă eu hoinăresc,.", "Spune-mi, tu!", "Cum mă numesc?"],
+        "lines": ["Sunt un rege ne-nfricat,", "Prin junglă eu hoinăresc,", "Spune-mi, tu!", "Cum mă numesc?"],
         "answer": ["leu", "leul"],
         "image": "./assets/leu.jpg"
     },    
@@ -109,7 +109,7 @@
     },    
     {
         "order": 19,
-        "lines": ["O felină, mai micuţă,", "Linguşitoare şi drăguţă,", "Pe masă ea s-a urcat", "Când mama n-a observat"],
+        "lines": ["O felină, mai micuţă,", "Linguşitoare şi drăguţă,", "Pe masă ea s-a urcat", "Când mama n-a observat."],
         "answer": ["pisica", "pisică"],
         "image": "./assets/pisica.jpg"
     },    
@@ -145,7 +145,7 @@
     },    
     {
         "order": 25,
-        "lines": ["Cine-i pasărea de fier,", "Care zboară sus pe cer?", "Vrea benzină, nu mâncare", "Cine-i oare?"],
+        "lines": ["Cine-i pasărea de fier,", "Care zboară sus pe cer?", "Vrea benzină, nu mâncare.", "Cine-i oare?"],
         "answer": ["avion", "avionul"],
         "image": "./assets/avion.jpg"
     },    
@@ -163,20 +163,20 @@
     },    
     {
         "order": 28,
-        "lines": ["De-i rotundă, albă, mare", "Sau e mică, colorată,", "De-o loveşti ea sare-ndată"],
+        "lines": ["De-i rotundă, albă, mare", "Sau e mică, colorată,", "De-o loveşti ea", "sare-ndată."],
         "answer": ["mingea", "minge"],
         "image": "./assets/minge.jpg"
     },    
     {
         "order": 29,
-        "lines": ["Stă tot timpul într-un picior,", "Iar pe micul ei căpşor", "Poartă pălărie nouă", "Şi de-i soare, şi de plouă"],
+        "lines": ["Stă tot timpul într-un picior,", "Iar pe micul ei căpşor", "Poartă pălărie nouă", "Şi de-i soare, şi de plouă."],
         "answer": ["ciuperca", "ciupercă"],
         "image": "./assets/ciuperca.jpg"
     },    
     {
         "order": 30,
         "lines": ["Doarme o vară întreagă", "Obosită, fără vlagă,", "Dar te poartă în spinare", "Când afară e ninsoare.", "Ghiceşti cine este, oare?"],
-        "answer": ["sanie", "sania"],
+        "answer": ["sanie", "sania", "săniuţa", "saniuta"],
         "image": "./assets/sania.jpg"
     },    
     {
@@ -206,7 +206,7 @@
     {
         "order": 35,
         "lines": ["Sus pe creasta muntelui", "Mie-mi place să trăiesc,", "Sunt precum o stea micuţă", "Şi oamenii mă ocrotesc."],
-        "answer": ["floarea de colţ", "floare de colţ"],
+        "answer": ["floarea de colţ", "floare de colţ", "floare de colt", "floarea de colt"],
         "image": "./assets/floarea-de-colt.jpg"
     },    
     {
@@ -223,7 +223,7 @@
     },    
     {
         "order": 38,
-        "lines": ["Sunt pufos, parcă-s de vată", "Şi mă plimb prin lumea toată", "Iar când frig mie îmi este", "Vă dau şi vouă de veste.", "Vă trimit lacrimile mele", "Ca să vă spălaţi cu ele."],
+        "lines": ["Sunt pufos, parcă-s de vată", "Şi mă plimb prin lumea toată.", "Iar când frig mie îmi este", "Vă dau şi vouă de veste.", "Vă trimit lacrimile mele", "Ca să vă spălaţi cu ele."],
         "answer": ["nor", "norul"],
         "image": "./assets/nor.jpg"
     }
