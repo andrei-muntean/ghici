@@ -7,12 +7,16 @@
   display: table-cell;
   vertical-align: middle;
   font-family: 'BlackChancery';
-  background-image: url('../../assets/coperta.jpg');
-  object-fit: fill;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100% 100vh;
-  background-color: rgb(249, 243, 147);
+  h1 {
+    font-size: 60pt;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 36pt;
+  }
+  .cover {
+    font-size: 60pt;
+  }
   button {
     font-size: 18pt;
     min-width: 200px;
