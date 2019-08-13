@@ -18,9 +18,13 @@
     font-size: 60pt;
   }
   button {
+    background: url('../../assets/primaryButton.png') no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: white;
     font-size: 18pt;
-    min-width: 200px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
   }
   .foot {
     position: absolute;

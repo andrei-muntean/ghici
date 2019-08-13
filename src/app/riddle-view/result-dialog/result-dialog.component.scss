@@ -15,7 +15,7 @@
       padding: 0 30px;
       border-width: 3px;
       border-style: solid;
-      border-image: linear-gradient(to bottom, #673ab7, rgba(0, 0, 0, 0)) 1 100%;  
+      border-image: linear-gradient(to bottom, #673ab7, rgba(0, 0, 0, 0)) 1 100%;
       .correct-img {
         width: 500px;
         height: 450px;
@@ -31,31 +31,53 @@
       justify-content: space-between;
       flex-direction: row-reverse;
       text-align: center;
-      button {
-        min-width: 200px;
-        height: 50px;
+      .button-primary {
+        background: url('../../../assets/primaryButton.png') no-repeat;
+        text-align: center;
+        background-size: cover;
+        color: white;
         font-size: 18pt;
+        width: 200px;
+        height: 80px;
+      }
+      .button-print {
+        background: url('../../../assets/successButton.png') no-repeat;
+        text-align: center;
+        background-size: cover;
+        color: white;
+        font-size: 18pt;
+        width: 200px;
+        height: 80px;
+      }
+      .button-warn {
+        background: url('../../../assets/warnButton.png') no-repeat;
+        text-align: center;
+        background-size: cover;
+        color: white;
+        font-size: 18pt;
+        width: 200px;
+        height: 80px;
       }
     }
   }
 }
 .divider {
-    position: relative;
-    margin-top: 20px;
-    height: 2px;
-  }
-  .div-transparent:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 5%;
-    right: 5%;
-    width: 90%;
-    height: 2px;
-    background-image: linear-gradient(
-      to right,
-      transparent,
-      #673ab7,
-      transparent
-    );
-  }
+  position: relative;
+  margin-top: 20px;
+  height: 2px;
+}
+.div-transparent:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #673ab7,
+    transparent
+  );
+}

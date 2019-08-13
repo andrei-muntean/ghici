@@ -12,10 +12,11 @@
     </div>
     <div class="divider div-transparent div-arrow-down"></div>
     <div class="buttons">
-      <button mat-flat-button color="accent" (click)="print()">
+      <button class="button-print" mat-flat-button color="accent" (click)="print()">
         Printează
       </button>
       <button
+        class="button-primary"
         mat-flat-button
         color="primary"
         [mat-dialog-close]="data.correct"
@@ -37,6 +38,7 @@
     <div class="divider div-transparent div-arrow-down"></div>
     <div class="buttons">
       <button
+        class="button-warn"
         mat-flat-button
         color="warn"
         (click)="close()"

@@ -5,7 +5,6 @@
         {{ line }}
       </div>
     </div>
-    <div class="divider div-transparent div-arrow-down"></div>
   </div>
   <div class="answer">
     <form class="answer-form">
@@ -15,9 +14,9 @@
     </form>
   </div>
   <div class="footer buttons">
-    <button mat-flat-button color="accent" [disabled]="order === 0" (click)="back()">
+    <button class="button-warn" mat-flat-button color="accent" [disabled]="order === 0" (click)="back()">
       Înapoi
     </button>
-    <button mat-flat-button color="primary" (click)="openDialog(answer.value)">Trimite Răspuns</button>
+    <button class="button-primary" mat-flat-button color="primary" (click)="openDialog(answer.value)">Trimite Răspuns</button>
   </div>
 </div>
