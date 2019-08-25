@@ -25,14 +25,16 @@
     font-size: 18pt;
     width: 200px;
     height: 80px;
+    z-index: 5;
   }
   .foot {
-    position: absolute;
+    position: fixed;
     left: 2%;
     bottom: 2%;
     display: flex;
     font-size: 10pt;
     text-align: left;
+    width: 25rem;
     .bold {
       font-weight: 600;
     }
