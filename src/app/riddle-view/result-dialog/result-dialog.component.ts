@@ -31,10 +31,12 @@ export class ResultDialogComponent {
       '\n <html>\n <head>\n <title>' +
         this.data.correctAnswer +
         '</title>\n  <style> img {max-width:550px;} </style>\n </head>\n ' +
-        '<body onload="window.print();window.close()">' +
+        '<body>' +
         printContents +
         '</body>\n      </html>'
     );
-    popupWin.document.close();
+    setTimeout(() => {
+      popupWin.print();
+    }, 1000);
   }
 }
