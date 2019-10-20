@@ -20,13 +20,13 @@
     {
         "order": 4,
         "lines": ["Îmi strig zilnic numele", "S-audă vecinele", "Oul în grija lor îl las,", "Când vreau să am un urmaș."],
-        "answer": ["cuc", "cucul"],
+        "answer": ["cuc", "cucul", "cucu"],
         "image": "./assets/cuc.jpg"
     },    
     {
         "order": 5,
         "lines": ["Marea îmi dăruiește", "Zilnic câte-un peștișor.", "Pe deasupra ei când zbor,", "Seamăn cu un mic planor."],
-        "answer": ["pescarus", "pescăruș", "pescarusul", "pescărușul"],
+        "answer": ["pescarus", "pescăruș", "pescarusul", "pescărușul", "pescaruș", "pescărus", "pescarușul", "pescărusul"],
         "image": "./assets/pescarus.jpg"
     },    
     {
@@ -44,7 +44,7 @@
     {
         "order": 8,
         "lines": ["Eu la mare locuiesc", "Peștii îmi plac, la ei poftesc.", "În apă când privesc,", "Pofta vreau să-mi potolesc."],
-        "answer": ["pescarus", "pescăruș", "pescarusul", "pescărușul"],
+        "answer": ["pescarus", "pescăruș", "pescarusul", "pescărușul", "pescaruș", "pescărus", "pescarușul", "pescărusul"],
         "image": "./assets/pescarusul.jpg"
     },    
     {
@@ -62,7 +62,7 @@
     {
         "order": 11,
         "lines": ["Merg la trap sau în galop,", "Nu-mi place să stau pe loc.", "Dacă tu le ştii pe toate,", "Spune: cine sunt, nepoate?"],
-        "answer": ["cal", "calul", "căluț", "căluțul", "calut", "calutul"],
+        "answer": ["cal", "calul", "căluț", "căluțul", "calut", "calutul", "calu"],
         "image": "./assets/cal.jpg"
     },    
     {
@@ -74,7 +74,7 @@
     {
         "order": 13,
         "lines": ["Unii zic că-s fioros", "Tot flămând şi nemilos.", "În pădure locuiesc", "Şi la iezi mereu poftesc."],
-        "answer": ["lup", "lupul"],
+        "answer": ["lup", "lupul", "lupu"],
         "image": "./assets/lup.jpg"
     },    
     {
@@ -104,13 +104,13 @@
     {
         "order": 18,
         "lines": ["Patrupedul credincios", "Se bucură de-i dau un os.", "Tata, paznic l-a angajat,", "Iar el ne vorbeşte prin lătrat."],
-        "answer": ["caine", "cainele", "câine", "câinele", "cățel", "cățelul", "cățeluș", "catelus", "catel", "catelul"],
+        "answer": ["caine", "cainele", "câine", "câinele", "cățel", "cățelul", "cățeluș", "catelus", "catel", "catelul", "cutu", "cuțu"],
         "image": "./assets/caine.jpg"
     },    
     {
         "order": 19,
         "lines": ["O felină, mai micuţă,", "Linguşitoare şi drăguţă,", "Pe masă ea s-a urcat", "Când mama n-a observat."],
-        "answer": ["pisica", "pisică"],
+        "answer": ["pisica", "pisică", "țiți", "titi", "mata", "mâța", "mâță"],
         "image": "./assets/pisica.jpg"
     },    
     {
@@ -122,7 +122,7 @@
     {
         "order": 21,
         "lines": ["Prin pădure umblu alene", "După fragi, nu după lemne.", "Şi strig tare că de foame", "Am să : morrrr! mor!…"],
-        "answer": ["urs", "ursul"],
+        "answer": ["urs", "ursul", "ursu"],
         "image": "./assets/urs.jpg"
     },    
     {
@@ -140,7 +140,7 @@
     {
         "order": 24,
         "lines": ["Are spini, nu-i trandafir.", "Umblă noaptea prin grădini.", "Ce să fie oare, ghici?", "Un ....."],
-        "answer": ["arici", "ariciul"],
+        "answer": ["arici", "ariciul", "ariciu"],
         "image": "./assets/arici.jpg"
     },    
     {
@@ -158,13 +158,13 @@
     {
         "order": 27,
         "lines": ["Creaţia miraculoasă,", "Îţi spune de eşti frumoasă", "Te prezintă aşa cum eşti", " În ea, dacă te priveşti."],
-        "answer": ["oglinda", "oglindă"],
+        "answer": ["oglinda", "oglindă", "oglindjoară", "oglindjoara"],
         "image": "./assets/oglinda.jpg"
     },    
     {
         "order": 28,
         "lines": ["De-i rotundă, albă, mare", "Sau e mică, colorată,", "De-o loveşti ea", "sare-ndată."],
-        "answer": ["mingea", "minge"],
+        "answer": ["mingea", "minge", "loptă", "lopta"],
         "image": "./assets/minge.jpg"
     },    
     {
@@ -212,7 +212,7 @@
     {
         "order": 36,
         "lines": ["Multe boabe adunate", "Pe-un ştiulete înşirate.", "Gălbioare, aurii,", "Ce să fie, dragi copii?"],
-        "answer": ["porumb", "porumbul"],
+        "answer": ["porumb", "porumbul", "cucuruz"],
         "image": "./assets/porumb.jpg"
     },    
     {

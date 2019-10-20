@@ -12,4 +12,8 @@ export class HomeViewComponent implements OnInit {
   ngOnInit() {
   }
 
+  reset(): void {
+    localStorage.removeItem('order');
+  }
+
 }

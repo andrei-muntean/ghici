@@ -1,7 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { IDialogData } from '../../models';
-import { ElectronService } from '../../core/services';
 
 @Component({
   selector: 'app-result-dialog',
@@ -10,7 +9,6 @@ import { ElectronService } from '../../core/services';
 })
 export class ResultDialogComponent {
   constructor(
-    private _electronService: ElectronService,
     private _dialogRef: MatDialogRef<ResultDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: IDialogData
   ) {}

@@ -33,6 +33,10 @@ export class RiddleViewComponent implements OnInit {
     this.riddle = this._allRiddles[--this.order];
   }
 
+  next(): void {
+    this.riddle = this._allRiddles[++this.order];
+  }
+
   openDialog(inputValue: string): void {
     if (!inputValue) {
       return;
