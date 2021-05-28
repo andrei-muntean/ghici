@@ -6,16 +6,41 @@
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  font-family: 'BlackChancery';
+  font-family: "BlackChancery";
   h1 {
     font-size: 60pt;
     font-weight: 600;
+    color: #4adbff;
   }
   h2 {
     font-size: 36pt;
   }
   .cover {
-    font-size: 60pt;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    img {
+      width: 300px !important;
+      z-index: 5;
+    }
+  }
+  .middle {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rules {
+    font-size: 18pt;
+    display: inline-block;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 1em;
+    line-height: 1.5em;
+    border:solid 5px rgb(103, 58, 183);
   }
   .resetbutton {
     position: absolute;
@@ -25,7 +50,7 @@
     z-index: 5;
   }
   .startbutton {
-    background: url('../../assets/primaryButton.png') no-repeat;
+    background: url("../../assets/primaryButton.png") no-repeat;
     text-align: center;
     background-size: cover;
     color: white;
@@ -42,8 +67,8 @@
     font-size: 10pt;
     text-align: left;
     width: 25rem;
-    .bold {
-      font-weight: 600;
-    }
+  }
+  .bold {
+    font-weight: 600;
   }
 }
